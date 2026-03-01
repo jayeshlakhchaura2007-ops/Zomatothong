@@ -1,0 +1,23 @@
+auc: 0.6109791064849847
+ndcg_at_10: 0.5388856921828066
+precision_at_10: 0.4
+recall_at_10: !!python/object/apply:numpy._core.multiarray.scalar
+- !!python/object/apply:numpy.dtype
+  args:
+  - f8
+  - false
+  - true
+  state: !!python/tuple
+  - 3
+  - <
+  - null
+  - null
+  - null
+  - -1
+  - -1
+  - 0
+- !!binary |
+  2YBsQDYgez8=
+test_size: 5400
+train_size: 25200
+val_size: 5400

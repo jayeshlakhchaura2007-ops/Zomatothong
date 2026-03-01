@@ -1,0 +1,31 @@
+restaurant_id,cuisine,price_tier,rating_avg,delivery_rating,is_chain,city,zone
+r_0,South Indian,high,4.3,3.8,False,city_a,zone_1
+r_1,Bakery,mid,4.6,3.6,False,city_a,zone_3
+r_2,Chinese,low,4.5,4.2,False,city_a,zone_1
+r_3,North Indian,high,4.7,4.2,False,city_a,zone_2
+r_4,South Indian,low,3.9,4.7,False,city_a,zone_2
+r_5,South Indian,high,3.8,3.6,False,city_b,zone_3
+r_6,Bakery,low,4.7,3.8,True,city_a,zone_2
+r_7,North Indian,low,4.5,3.9,False,city_a,zone_2
+r_8,South Indian,high,3.6,4.6,False,city_a,zone_1
+r_9,Italian,mid,3.9,4.5,True,city_a,zone_3
+r_10,South Indian,mid,3.9,4.6,False,city_b,zone_2
+r_11,Bakery,high,4.0,4.8,False,city_a,zone_1
+r_12,Chinese,low,4.3,4.8,True,city_b,zone_2
+r_13,Bakery,mid,4.1,4.8,True,city_a,zone_2
+r_14,North Indian,high,4.1,4.2,False,city_a,zone_2
+r_15,Italian,low,4.7,4.7,False,city_a,zone_3
+r_16,Chinese,high,3.9,4.0,False,city_b,zone_3
+r_17,South Indian,low,4.0,4.7,False,city_a,zone_3
+r_18,Beverages,mid,4.0,4.6,False,city_a,zone_2
+r_19,Beverages,high,4.4,4.1,False,city_a,zone_3
+r_20,Italian,high,3.7,3.6,False,city_b,zone_1
+r_21,South Indian,high,3.9,4.5,True,city_a,zone_1
+r_22,Italian,high,4.6,3.6,False,city_a,zone_3
+r_23,Bakery,mid,4.1,3.8,False,city_a,zone_1
+r_24,Italian,low,3.7,4.7,False,city_a,zone_3
+r_25,South Indian,low,4.1,4.5,False,city_b,zone_2
+r_26,Beverages,high,4.7,4.1,False,city_b,zone_1
+r_27,Bakery,mid,4.1,4.5,False,city_b,zone_3
+r_28,Italian,high,3.8,4.1,False,city_a,zone_2
+r_29,Chinese,mid,4.7,3.6,True,city_b,zone_3

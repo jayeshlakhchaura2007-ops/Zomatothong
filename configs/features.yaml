@@ -1,0 +1,45 @@
+# Feature pipeline configuration for CSAO recommendation system
+
+# User features
+user:
+  order_frequency: true
+  recency_days: true
+  monetary_value_avg: true
+  segment: true  # budget | premium | occasional
+  preferred_cuisines_top_k: 5
+  preferred_zones_top_k: 3
+
+# Restaurant features
+restaurant:
+  cuisine: true
+  price_tier: true  # low | mid | high
+  rating_avg: true
+  delivery_rating: true
+  item_popularity: true
+  is_chain: true
+
+# Cart context
+cart:
+  item_count: true
+  total_value: true
+  category_counts: true
+  veg_ratio: true
+  incomplete_meal_signals: true  # e.g. main without beverage
+
+# Contextual
+context:
+  hour: true
+  day_of_week: true
+  meal_bucket: true  # breakfast | lunch | dinner | late_night
+  city: true
+  zone: true
+
+# Candidate generation
+candidates:
+  max_per_request: 50
+  same_restaurant_only: true
+  exclude_cart_items: true
+  category_filters: []  # optional: [beverages, desserts] for add-on focus
+
+# Latency target (ms)
+latency_target_ms: 300
